@@ -1,0 +1,42 @@
+.ImportantSection{
+    margin-bottom: 100px;
+}
+.ImportantSectionCard > img{
+   padding: 8px;
+   background: #FFE1D8;
+   border-radius: 10px;
+}
+.ImportantSection__header{
+  margin-bottom: 70px;
+}
+.ImportantSection__headerTitle{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #001F29;
+}
+.ImportantSection__headerText{
+    max-width: 470px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #B9C0C1;
+}
+.ImportantSectionCard__title{
+    margin: 16px 0;
+    font-size: 18px;
+    line-height: 21px;
+    color: #001F29;
+
+}
+.ImportantSectionCard__text{
+    max-width: 200px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ABADAD;
+}
+.ImportantSection__cardWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 

@@ -1,0 +1,82 @@
+.heroWrap{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__left{
+    max-width: 390px;
+    width: 100%;
+}
+.hero__title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    color: #001F29;
+}
+.hero__text{
+    margin: 16px 0 32px 0;
+    font-size: 14px;
+    line-height: 32px;
+    color: #B9C0C1;
+    
+}
+.btnBorder{
+    margin-left: 16px;
+    padding: 15px 22px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #F75532;
+    border: 1px solid #F75532;
+    border-radius: 10px;
+    background-color: white;
+}
+.ButtonCard{
+    padding: 12px 18px;
+    font-size: 14px;
+    line-height: 16px;
+    border: 1px solid #F75532;
+    background-color: white;
+    border-radius: 20px;
+    color: #F75532;
+
+}
+.hero__right{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.HeroFakeDiv{
+    width: 180px;
+    height: 184px;
+    background: #FFE1D8;
+    border-radius: 10px;
+}
+.HeroBotmCard{
+    max-width: 240px;
+    width: 100%;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    text-align: right;
+}
+.HeroBotm{
+    margin-top: 40px;
+    display: flex;
+    column-gap: 20px;
+}
+.HeroBotm__title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #001F29;
+
+}
+.HeroBotm__text{
+    margin: 10px 0 15px 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B9C0C1;
+
+}

@@ -1,0 +1,44 @@
+.VaccineForma__headerTitle{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #001F29;
+}
+.VaccineForma__headerText{
+    max-width: 450px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #B9C0C1;
+}
+.VaccineFormaWrap{
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px 16px;
+    
+}
+.VaccineForma__main{
+   margin-top: 30px;
+   padding: 32px;
+   background: #FFFFFF;
+   box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+   border-radius: 10px;
+}
+.VaccineFormaCard__label{
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #001F29;
+}
+.VaccineFormaCard__label > input{
+    padding: 10px;
+    background: #FAFAFA;
+    border-radius: 10px;
+    border: none;
+}
+.VaccineForma__btn{
+    display: flex;
+    justify-content: center;
+}

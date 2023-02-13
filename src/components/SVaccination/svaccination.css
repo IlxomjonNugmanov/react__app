@@ -1,0 +1,49 @@
+.SVaccination{
+   margin-bottom: 80px;
+}
+.SVaccination__title{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #001F29;
+
+}
+.SVaccinationCard{
+    display: flex;
+    
+}
+.SVaccinationCard > img{
+    height: 20px;
+    margin-right: 16px;
+    margin-top: -10px;
+    padding: 10px;
+    background: #FFE1D8;
+    border-radius: 10px;
+    
+}
+
+.SVaccination__cardWrap{
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+
+    
+}
+.SVaccinationCard__title{
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #001F29;
+}
+.SVaccinationCard__main > input{
+    padding: 8px;
+    background: #FAFAFA;
+    border-radius: 10px;
+    border: none;
+}

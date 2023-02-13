@@ -1,0 +1,68 @@
+.contact{
+    margin: 100px 0 130px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.contact__left{
+    width: 510px;
+    height: 400px;
+    background: #d9d7d7;
+    border-radius: 10px;
+}
+.contactRight__header{
+    margin-bottom: 32px;
+}
+.contactRight__headerTitle{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #001F29;
+}
+.contactRight__headerText{
+    max-width: 450px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #B9C0C1;
+}
+.contactCardWrap{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 17px;
+}
+.ContactCard{
+    display: flex;
+    padding: 15px 25px;
+    background: #FFFFFF;
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+.ContactCard > img{
+   margin-right: 16px;
+   height: 20px;
+   padding: 10px;
+   background: #FFE1D8;
+   border-radius: 10px;
+}
+.ContactCard__title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #001F29;
+
+}
+.ContactCard__text{
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 18px;
+    color: #B9C0C1;
+}
+.ContactCard__main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.ContactCard__main > button{
+    padding: 10px 22px;
+}
